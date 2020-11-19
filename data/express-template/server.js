@@ -56,9 +56,9 @@ app.use('/api',         apiAuthRoutes);
 app.use('/api',         apiUserRoutes);
 
 // Routes
-app.use('/',            indexRoutes);
 app.use("/login",       loginRoutes);
 app.use("/register",    registrationRoutes);
+app.use('/',            indexRoutes);
 
 // -------------------------------------------------------------------------------------------------------------------
 // Error handling
